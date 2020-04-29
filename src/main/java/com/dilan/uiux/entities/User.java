@@ -27,6 +27,10 @@ public class User {
         this.full_name = full_name;
     }
 
+
+    public User() {
+    }
+
     public Long getId() {
         return id;
     }
